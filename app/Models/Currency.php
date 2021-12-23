@@ -17,4 +17,5 @@ class Currency extends Model
         'ask',
     ];
     public $incrementing = false;
+    protected $primaryKey = 'code';
 }
